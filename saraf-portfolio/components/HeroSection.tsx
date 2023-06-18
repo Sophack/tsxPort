@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section id="home">
       <div>
-        <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-5 py-16 sm:py-32 md:py-28 md:flex-row md:space-x-4 md:text-left md:flex-row">
+        <div className="flex flex-col text-center mt-20 items-center justify-center animate-fadeIn animation-delay-12 my-5 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left md:flex-row">
           <div>
             <Image
               className="rounded-full shadow-2xl"
@@ -25,7 +25,7 @@ const HeroSection = () => {
               Hi, I'm Saraf!
             </h1>
             <p className="text-lg mt-4 mb-6 md:text-2xl">
-              I'm a Software Engineer based in Toronto, Canada. Working towards
+              I'm a Software Developer based in Toronto, Canada. Working towards
               streamlining innovative solutions that make life more efficient.
             </p>
             <Link
