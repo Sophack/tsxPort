@@ -59,25 +59,25 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                    <h1 className="text-4xl font-bold mb-6 text-indigo-900 dark:text-violet-300">{project.name}</h1>
+                    <p className="text-xl leading-7 mb-4 text-indigo-800 dark:text-violet-200">
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-indigo-900 dark:text-violet-300"
                         />
                       </Link>
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
                           size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                          className="hover:-translate-y-1 transition-transform cursor-pointer text-indigo-900 dark:text-violet-300"
                         />
                       </Link>
                       <br></br>
-                      <p className="text-xl leading-7 mb-4 mt-20 text-violet-500 dark:text-neutral-400">{project.tech}</p>
+                      <p className="text-xl leading-7 mb-4 mt-20 text-indigo-800 dark:text-violet-300">{project.tech}</p>
                     </div>
                   </div>
                 </div>

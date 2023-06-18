@@ -41,10 +41,10 @@ const Navbar = () => {
 
   return (
     <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
-      <div className="flex items-center justify-between flex-wrap bg-violet-950 p-6 hover:text-white mr-4">
+      <div className="flex items-center justify-between flex-wrap bg-indigo-900 p-6 hover:text-white mr-4">
         <div className="flex items-center justify-between md:py-4 md:block">
           <div className="">
-            <h2 className="text-2xl font-bold text-violet-200 hover:text-white mr-4">
+            <h2 className="text-2xl font-bold text-violet-200 hover:text-white hover:cursor-pointer mr-4">
               Saraf Nawar
             </h2>
           </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 key={idx}
                 to={item.page}
                 className={
-                  "block lg:inline-block text-violet-200  hover:text-violet-500 dark:text-violet-100"
+                  "block lg:inline-block text-violet-200 hover:text-violet-500 hover:cursor-pointer dark:text-violet-100"
                 }
                 activeClass="active"
                 spy={true}

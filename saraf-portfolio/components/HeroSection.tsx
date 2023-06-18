@@ -30,7 +30,7 @@ const HeroSection = () => {
             </p>
             <Link
               to="projects"
-              className="text-neutral-100 font-semibold px-6 py-3 bg-violet-400 rounded shadow hover:bg-violet-300"
+              className="text-neutral-100 hover:cursor-pointer font-semibold px-6 py-3 bg-violet-400 rounded shadow hover:bg-violet-300"
               activeClass="active"
               spy={true}
               smooth={true}
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-row justify-center ">
+        <div className="flex flex-row justify-center">
           <Link
             to="about"
             activeClass="active"
