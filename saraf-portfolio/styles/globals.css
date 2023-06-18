@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.handicon {
+    color: rgb(160, 120, 221);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: -25px;
+}
+
+.tech {
+    color: rgb(82, 48, 133);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-weight: bold;
+}
