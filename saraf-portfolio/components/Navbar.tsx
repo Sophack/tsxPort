@@ -27,16 +27,13 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
-  ,
-  {
-    label: "Contact",
-    page: "contact",
-  }
+  
 ];
 
 const Navbar = () => {
   const { systemTheme, theme, setTheme } = useTheme()
   const currentTheme = theme === "system" ? systemTheme : theme
+  const pathname = usePathname()
   const [navbar, setNavbar] = useState(false)
 
   return (
@@ -92,7 +89,7 @@ const Navbar = () => {
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="bg-violet-400 p-2 rounded-xl"
+                  className="customViolet p-2 rounded-xl"
                 >
                   <RiMoonFill size={25} color="black" />
                 </button>

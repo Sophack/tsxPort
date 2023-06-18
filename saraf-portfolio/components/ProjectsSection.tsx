@@ -59,7 +59,7 @@ const ProjectsSection = () => {
                     </Link>
                   </div>
                   <div className="mt-8 md:w-1/2">
-                    <h1 className="text-4xl font-bold mb-6 text-indigo-900 dark:text-violet-300">{project.name}</h1>
+                    <h1 className="text-4xl font-bold mb-6 text-slate-800 dark:text-violet-300">{project.name}</h1>
                     <p className="text-xl leading-7 mb-4 text-indigo-800 dark:text-violet-200">
                       {project.description}
                     </p>

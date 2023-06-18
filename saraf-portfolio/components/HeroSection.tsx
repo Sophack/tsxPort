@@ -22,15 +22,15 @@ const HeroSection = () => {
           </div>
           <div className="md:mt-2 md:w-3/5">
             <h1 className="text-5xl font-bold mt-6 md:mt-0 md:text-7xl">
-              Hi, I'm Saraf!
+              Hi, I&#39;m Saraf!
             </h1>
             <p className="text-lg mt-4 mb-6 md:text-2xl">
-              I'm a Software Developer based in Toronto, Canada. Working towards
+              I&#39;m a Software Developer based in Toronto, Canada. Working towards
               streamlining innovative solutions that make life more efficient.
             </p>
             <Link
               to="projects"
-              className="text-neutral-100 hover:cursor-pointer font-semibold px-6 py-3 bg-violet-400 rounded shadow hover:bg-violet-300"
+              className="customViolet text-slate-100 hover:cursor-pointer font-semibold px-6 py-3 rounded shadow hover:bg-violet-300"
               activeClass="active"
               spy={true}
               smooth={true}

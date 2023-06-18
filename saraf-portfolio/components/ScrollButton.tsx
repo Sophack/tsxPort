@@ -1,10 +1,15 @@
 import React from 'react';
 import { HiArrowDown } from 'react-icons/hi';
 
-const ScrollButton = ({ showAbout, toggleAbout }) => {
+interface ScrollButtonProps {
+  showAbout: boolean;
+  toggleAbout: (value: boolean) => void;
+}
+
+const ScrollButton: React.FC<ScrollButtonProps> = ({ showAbout, toggleAbout }) => {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
-    aboutSection.scrollIntoView({ behavior: 'smooth' });
+    aboutSection?.scrollIntoView({ behavior: 'smooth' });
     toggleAbout(!showAbout);
   };
 

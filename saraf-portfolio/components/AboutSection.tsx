@@ -32,17 +32,13 @@ const AboutSection = () => {
     setShowAbout(!showAbout);
   };
 
-  const scrollToAbout = () => {
-    const aboutSection = document.getElementById('about');
-    aboutSection.scrollIntoView({ behavior: 'smooth' });
-  };
   
   return (
     <section id="about" className={showAbout ? 'about-section' : 'about-section hidden'}>
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
         <h1 className="text-center font-bold text-4xl">
           About Me
-          <hr className="w-6 h-1 mx-auto my-4 bg-violet-500 border-0 rounded"></hr>
+          <hr className="w-6 h-1 mx-auto my-4 customViolet border-0 rounded"></hr>
         </h1>
         <ScrollButton showAbout={showAbout} toggleAbout={toggleAbout} />
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
@@ -54,9 +50,9 @@ const AboutSection = () => {
               </h1>
             <p>
               Hi, my name is Saraf and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> full-stack developer
+              <span className="font-bold customText">{"highly ambitious"}</span>,
+              <span className="font-bold customText">{" self-motivated"}</span>, and
+              <span className="font-bold customText">{" driven"}</span> full-stack developer
               based in Toronto, Canada 🍁
             </p>
             <br />
@@ -75,9 +71,9 @@ const AboutSection = () => {
             <br />
             <p>
             As an outgoing individual, I have leveraged my versatile abilities into  {" "}
-              <span className="font-bold text-violet-500">
+              <span className="font-bold customText">
                 transferable skills.</span>{" "}
-               Technology ignites my fire and I'm fascinated by the limits of what's possible.
+               Technology ignites my fire and Im fascinated by the limits of whats possible.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
