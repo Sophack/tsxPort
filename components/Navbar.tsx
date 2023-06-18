@@ -37,7 +37,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="w-full md:px-4 sm:px-2 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
       <div className="flex items-center justify-between flex-wrap bg-indigo-900 p-6 hover:text-white mr-4">
         <div className="flex items-center justify-between md:py-4 md:block">
           <div className="">

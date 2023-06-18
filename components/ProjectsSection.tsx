@@ -27,8 +27,8 @@ const projects = [
     description:
       "A canvas based drawing application that can be easily integrated into any website.",
     image: "/drawingApp.jpg",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    github: "https://github.com/Sophack/drawingApp",
+    link: "https://sophack.github.io/drawingApp",
     tech:  "technologies used: HTML5, CSS, Vanilla Javascript, API integration: 2 server side APIs (WatchMode & OpenWeather)", 
   },
 ]
