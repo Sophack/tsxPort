@@ -1,4 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Screenshots 
+
+![image](https://github.com/Sophack/tsxPort/assets/114966651/b8fb524f-1e1e-4f6d-a0b0-65193090f124)
+![image](https://github.com/Sophack/tsxPort/assets/114966651/cbeea32d-1aff-45ae-bed8-ee774f8d65fb)
+
+![image](https://github.com/Sophack/tsxPort/assets/114966651/09b03767-5b02-47c0-ad03-e6c092a207ad)
+
+![image](https://github.com/Sophack/tsxPort/assets/114966651/cf581cf8-2b6d-4a22-ad64-140d258baa18)
 
 ## Getting Started
 
